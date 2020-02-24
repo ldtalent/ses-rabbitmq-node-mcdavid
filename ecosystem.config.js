@@ -6,17 +6,16 @@ module.exports = {
       exec_mode: 'cluster_mode',
       instances: 'max',
       env: {
-        NODE_ENV: 'production',
-        DEBUG: 'vevet-backend'
+        NODE_ENV: 'production'
       }
     },
     {
       name: 'emailWorker',
       args: 'consumeMessage',
-      exec_mode: 'cluster_mode',
+      exec_mode: 'fork',
       watch: false,
       script: 'emailWorker.js',
-      instances: 'max'
+      instances: '1'
     }
   ]
 };
