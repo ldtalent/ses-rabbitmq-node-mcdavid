@@ -14,7 +14,7 @@ module.exports = {
   ses: {
     from: {
       // replace with actual email address
-      default: '"Vevet Admin" <sad@vevet.co>',
+      default: '"Company Admin" <admin@company-name.co>',
     },
     // e.g. us-west-2
     region: 'us-east-1'
