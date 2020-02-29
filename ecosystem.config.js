@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'API',
-      script: 'index.js',
+      script: 'src/index.js',
       exec_mode: 'cluster_mode',
       instances: 'max',
       env: {
@@ -14,7 +14,7 @@ module.exports = {
       args: 'consumeMessage',
       exec_mode: 'fork',
       watch: false,
-      script: 'emailWorker.js',
+      script: 'src/emailWorker.js',
       instances: '1'
     }
   ]
