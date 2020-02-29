@@ -1,7 +1,7 @@
 # ses-rabbitmq-node
 
 ## Description
-Github project for the tutorial - [How to set up an email service with RabbitMQ, AWS SES and PM2 on NodeJS.](https://blog.learningdollars.com/?p=3008). It takes you on a step by step to creating your own email service.
+Github project for the tutorial - [How to set up an email service with RabbitMQ, AWS SES and PM2 on NodeJS.](https://blog.learningdollars.com/?p=3008). It takes you on a step by step approach to creating your own email service.
 
 ## Technology Requirements
 The following technologies would need to be installed on your machine to run this Application
